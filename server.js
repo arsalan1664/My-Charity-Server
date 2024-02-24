@@ -50,7 +50,7 @@ async function startServer() {
   );
 
   const endpointSecret =
-    "whsec_578cf8fa7462a4f6e57c81d006847be022b78e1f0348f5a79292303b12924a8e";
+    "whsec_tpI0ztuNysCbSBZKh2tDhTmXzsdFGCCH";
 
   app.post(
     "/webhook",
