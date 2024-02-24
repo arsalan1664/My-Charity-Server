@@ -13,8 +13,8 @@ const stripeResolvers = {
           customer_email: email,
           line_items,
           mode: "payment",
-          success_url: process.env.FRONTEND_DOMAIN + "/thankyou",
-          cancel_url: process.env.FRONTEND_DOMAIN + "/",
+          success_url: process.env.FRONTEND_DOMAIN ,
+          cancel_url: process.env.FRONTEND_DOMAIN ,
         });
 
         return JSON.stringify(session.url);
